@@ -1,0 +1,19 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/platforms": true,
+    "**/hooks": true,
+    "package-lock.json": true,
+    "app/**/*.js": {
+       "when": "$(basename).ts"
+    },
+    "app/**/*.css": {
+       "when": "$(basename).scss"
+    }
+  }
+}
