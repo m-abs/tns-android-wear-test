@@ -1,4 +1,8 @@
 {
+  "[typescript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  },
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
