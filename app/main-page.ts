@@ -25,6 +25,7 @@ export function onNavigatingTo(args) {
     https://docs.nativescript.org/api-reference/classes/_ui_page_.page.html
     */
   const page = args.object as Page;
+  page.actionBarHidden = true;
 
   /*
     A page’s bindingContext is an object that should be used to perform
